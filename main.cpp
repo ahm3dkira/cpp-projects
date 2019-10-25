@@ -55,16 +55,16 @@ void toolstxt(){
 	cout << "1- sum of two numbers" << endl;
 	cout << "2- The product of multiplying two numbers" << endl;
 	cout << "3- Average of three numbers" << endl;
-	//cout << "4- hot/cold" << endl;
-	//cout << "5- r*r*3.14 " << endl;
-	//cout << "6- xxyy" << endl;
-	//cout << "7- enter tc to get Tf" << endl;
-	//cout << "8- enter tf to get Tc" << endl;
-	//cout << "9- time" << endl;
-	//cout << "10- rate " << endl;
-	//cout << "11- /" << endl;
-	//cout << "12- n/p" << endl;
-	//cout << "13- bank basik" << endl;
+	cout << "4- hot/cold" << endl;
+	cout << "5- Circle area " << endl;
+	cout << "6- The distance between two points" << endl;
+	cout << "7- enter tc to get Tf" << endl;
+	cout << "8- enter tf to get Tc" << endl;
+	cout << "9- Time of arrival" << endl;
+	cout << "10- heart rate " << endl;
+	cout << "11- division" << endl;
+	cout << "12- n/p" << endl;
+	cout << "13- Simple bank" << endl;
 	//cout << "14- " << endl;
 	//cout << "" << endl;
 	//cout << "" << endl;
@@ -93,16 +93,15 @@ while(!cin) // or if(cin.fail())
 		case 0:
 					cout << "st number: ";
 					cin >> n1;
-				break;	
+			break;	
 		case 1:
 					cout << "enter the first number: ";
 					cin >> n1;
 					cout << "enter the second number: ";
 					cin >> n2;
 					cout << "the sum is: " << n1 + n2;
-					//cout << "\n" << yorn; cin >> qu;
 					//yorn();
-				break;
+			break;
 		case 2:
 					cout << "enter the first number: ";
 					cin >> n1;
@@ -110,7 +109,7 @@ while(!cin) // or if(cin.fail())
 					cin >> n2;
 					cout << "the * is: " << n1 * n2;
 					//yorn();
-					break;
+			break;
 		case 3:
 					cout << "enter the first number: ";
 					cin >> n1;
@@ -120,9 +119,8 @@ while(!cin) // or if(cin.fail())
 					cin >> n3;
 					cout << "the sum/3 is: " << (n1 + n2 + n1) / 3;
 					//yorn();
-					break;
+			break;
 		case 4:
-
 					int t;
 					cout << "enter the temperature: ";
 					cin >> t;
@@ -137,20 +135,20 @@ while(!cin) // or if(cin.fail())
 					else
 						cout << "normal" << endl;
 					//yorn();
-					break;
+			break;
 		case 5:
-					cout << "enter the first redias number: ";
+					cout << "enter the redias number: ";
 					cin >> _a;
 					cout << "the * is: " << (_a * _a * 3.14);
 					//yorn();
-					break;
-				case 6:
+			break;
+		case 6:
 					cout << "enter the x1: ";
 					cin >> x1;
-					cout << "enter the x2: ";
-					cin >> x2;
 					cout << "enter the y1: ";
 					cin >> y01;
+					cout << "enter the x2: ";
+					cin >> x2;
 					cout << "enter the y2: ";
 					cin >> y2;
 
@@ -158,45 +156,38 @@ while(!cin) // or if(cin.fail())
 
 					if (n1 >= 0) {
 						_b = sqrt(n1);
-
 						cout << "the distance= " << _b;
 						//yorn();
-
 					}
 					else
 						cout << "error";
 					//yorn();
-					break;
-				case 7:
+			break;
+		case 7:
 					cout << "enter tc to get Tf: ";
 					cin >> _b;
 					//Tf = 9*Tc/5 + 32
 					_a = (9 * _b) / 5 + 32;
 					cout << n1;
 					//yorn();
-					break;
-
-
-
-				case 8:
+			break;
+		case 8:
 					cout << "enter tf to get Tc: ";
 					cin >> _b;
 					//Tf = 9*Tc/5 + 32
 					//(tc-32)5/9
 					_a = ((_b - 32) * 5) / 9;
 					//yorn();
-					break;
-
-				case 9:
+			break;
+		case 9:
 					cout << "enter d: ";
 					cin >> _b;
 					cout << "enter speed: ";
 					cin >> _a;
 					cout << "the time is: " << _b / _a;
 					//yorn();
-					break;
-
-				case 10:
+			break;
+		case 10:
 					cout << "enter hart rate: ";
 					cin >> _b;
 					if (_b == 70) {
@@ -206,8 +197,8 @@ while(!cin) // or if(cin.fail())
 					else
 						cout << "you are not fine" << endl;
 					//yorn();
-					break;
-				case 11:
+			break;
+		case 11:
 					cout << "enter x: ";
 					cin >> _a;
 					cout << "enter y: ";
@@ -219,9 +210,8 @@ while(!cin) // or if(cin.fail())
 					else
 						cout << "x/y = " << _a / _b << endl;
 					//yorn();
-					break;
-
-				case 12:
+			break;
+		case 12:
 					cout << "enter x: ";
 					cin >> _b;
 					if (_b == 0) {
@@ -234,8 +224,8 @@ while(!cin) // or if(cin.fail())
 					else
 						cout << "posative" << endl;
 					//yorn();
-					break;
-				case 13:
+			break;
+		case 13:
 					cout << "enter many: ";
 					cin >> a;
 					//cout << "enter y: ";
@@ -250,21 +240,18 @@ while(!cin) // or if(cin.fail())
 					if (a >= 1000) {
 						cout << "your many is: " << _c - _b << endl;
 						//yorn();
-					}
-					else
+					}else
 						cout << "your many is: " << _c << endl;
 					//yorn();
-					break;
-
-				case 14:
+			break;
+		case 14:
 					cout << "enter the first number: ";
 					cin >> n1;
 					cout << "enter the second number: ";
 					cin >> n2;
 					if (n1 == n2) { cout << n1 << endl; }
 					else
-						while (n1 != n2)
-						{
+						while (n1 != n2){
 							while (n1 > n2)
 							{
 								n1 = n1 - n2;
@@ -273,61 +260,46 @@ while(!cin) // or if(cin.fail())
 							{
 								n2 = n2 - n1;
 							}
-						}cout << n1 << endl;
+						}
+					cout << n1 << endl;
+			break;
+		case 15:
+					cout << "soon";
 
 					break;
 
-				case 15:
-					cout << "ffffffffffffffff ";
 
-					break;
-
-
-				default:
+		default:
 					//yorn();
 					cout << "error";
-					//cin >> qu;
-					//std::cin >> n1;
-
+					
 				}
 				//yorn();
 			}
 //End of Tools function
-int yorn()
-{
-
+int yorn(){
 	cout << "\n" << "do you want to exit (y/n): ";
 	cin >> qu;
-	if (qu == 'n' && ee <= 3)
-	{
+	if (qu == 'n' && ee <= 3){
 		ee = 0;
-		
 		logo();
 		toolstxt();
 		tools();
-
 		yorn();
-
-	}
-	else if (qu != 'y' && ee <= 3){
+	}else if (qu != 'y' && ee <= 3){
 		ee++;
 		yorn();
 	}
-
 		//cout << "bay";
-
 	return 0;
 }
-
-
 
 int main(){
 
     logo();
     toolstxt();
     tools();
-		yorn();
-
+	yorn();
 
 
 
