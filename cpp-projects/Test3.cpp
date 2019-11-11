@@ -1,7 +1,9 @@
 
 
-// A simple C++ program to compute sum of series 1/1! + 1/2! + .. + 1/n!
+// A simple C++ program to compute sum 
+// of series 1/1! + 1/2! + .. + 1/n!
 #include <iostream>
+#include <cmath>
 using namespace std;
   
 //  Utility function to find
@@ -18,7 +20,7 @@ double sum(int n)
 {
     double sum = 0;
     for (int i = 1; i <= n; i++)
-        sum += 1.0/factorial(i);
+        sum += pow(-1.0)/factorial(i);
     return sum;
 }
   
