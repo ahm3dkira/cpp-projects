@@ -1,4 +1,5 @@
-// A simple C++ program to compute sum of series 1/1! + 1/2! + .. + 1/n!
+// A simple C++ program to compute sum 
+// of series 1/1! + 1/2! + .. + 1/n!
 #include <iostream>
 using namespace std;
   
