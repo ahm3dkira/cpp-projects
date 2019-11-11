@@ -19,14 +19,14 @@ double sum(int n)
 {
     double sum = 0;
     for (int i = 1; i <= n; i++)
-        sum += pow(-1.0,i)/factorial(i);
+        sum += pow(-1.0,i-1)/factorial(i);
     return sum;
 }
   
 // Driver program to test above functions
 int main()
 {
-    int n = 5;
+    int n = 100;
     cout << sum(n);
     return 0;
 }
