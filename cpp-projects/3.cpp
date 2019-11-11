@@ -1,6 +1,6 @@
 
 // A simple C++ program to compute sum 
-// of series 1/1! + 1/2! + .. + 1/n!
+// of series 1/1! - 1/2! + .. + 1/n!
 #include <iostream>
 #include <cmath>
 using namespace std;
