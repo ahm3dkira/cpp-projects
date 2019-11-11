@@ -20,7 +20,7 @@ double sum(int n)
 {
     double sum = 0;
     for (int i = 1; i <= n; i++)
-        sum += pow(-1.0)/factorial(i);
+        sum += pow(-1.0,i)/factorial(i);
     return sum;
 }
   
