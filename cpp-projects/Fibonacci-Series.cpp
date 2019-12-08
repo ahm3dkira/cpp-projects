@@ -8,7 +8,7 @@ int main() {
  for(i=2;i<number;++i) //loop starts from 2 because 0 and 1 are already printed    
  {    
   n3=n1+n2;    
-  cout<<n3<<" ";    
+  cout<<n3<<endl;    
   n1=n2;    
   n2=n3;    
  }    
