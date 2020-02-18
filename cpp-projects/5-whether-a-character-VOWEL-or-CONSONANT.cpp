@@ -1,8 +1,8 @@
 /**************************************************************************
- * made by MrKira :)      												  *
- * https://github.com/MrKira128/cpp-projects     						  *  
+ * made by MrKira :)      						  *
+ * https://github.com/MrKira128/cpp-projects     			  *  
  **************************************************************************
- * check whether a character is a VOWEL or CONSONANT					  *
+ * check whether a character is a VOWEL or CONSONANT			  *
  **************************************************************************/
 #include <iostream>
 using namespace std;
