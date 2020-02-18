@@ -1,3 +1,9 @@
+/**************************************************************************
+ * made by MrKira :)      												  *
+ * https://github.com/MrKira128/cpp-projects     						  *  
+ **************************************************************************
+ * check whether a character is a VOWEL or CONSONANT					  *
+ **************************************************************************/
 #include <iostream>
 using namespace std;
 
@@ -24,7 +30,7 @@ int main()
         case 'u':
             cout << " You Enter a Vowel character"<<endl;
             break;
-	case 'y':
+		case 'y':
             cout << " You Enter a Vowel character"<<endl;
             break;
         case 'A':
@@ -42,7 +48,7 @@ int main()
         case 'U':
             cout << " You Enter a Vowel character"<<endl;
             break;
-	case 'Y':
+		case 'Y':
             cout << " You Enter a Vowel character"<<endl;
             break;
         default:
